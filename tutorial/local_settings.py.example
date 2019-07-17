@@ -1,0 +1,18 @@
+SECRET_KEY = ''
+
+DEBUG = True
+
+ALLOWED_HOSTS = []
+
+# Database
+
+DATABASES = {
+    'default': {
+        'ENGINE': '',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '',
+        'PORT': '',
+    }
+}

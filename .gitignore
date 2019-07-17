@@ -1,0 +1,11 @@
+# Environments
+env
+
+#Python
+local_settings.py
+
+# Idea
+.idea/
+*.pyc
+
+__pycache__
