@@ -7,8 +7,9 @@ class SnippetAdmin(admin.ModelAdmin):
     fieldsets = [
         ('Date information', {'fields': ['title', 'code', 'linenos']}),
         ('Style', {'fields': ['language', 'style']}),
+        ('Additional fields', {'fields': ['owner', 'highlighted']}),
     ]
-    list_display = ('created', 'title', 'code')
+    list_display = ('created', 'title', 'code', 'owner')
     search_fields = ['title']
 
 
